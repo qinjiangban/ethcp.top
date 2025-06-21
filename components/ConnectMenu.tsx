@@ -1,19 +1,23 @@
 'use client'
-import { useAccount, useConnect } from 'wagmi'
- 
+import { useAccount, useConnect, useEnsName } from 'wagmi'
+
 export default function ConnectMenu() {
   const { isConnected, address } = useAccount()
   const { connect, connectors } = useConnect()
- 
+  const { data: ensName } = useEnsName({ address })
+
+
   if (isConnected) {
     return (
       <>
-        <div>You're connected!</div>
-        <div>Address: {address}</div>
+        <div>已连接！</div>
+        <div>
+          用户身份: { ensName || address}
+        </div>
       </>
     )
   }
- 
+
   return (
     <button
       type="button"

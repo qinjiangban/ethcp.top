@@ -1,25 +1,34 @@
 {
     "accountAssociation": {
-        "header": "eyJmaWQiOjk2OTYxNSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDFGNjAyRGVhNjUwNzYxMzAzRDIzYTRmMGE4Q2Q0NUE2MkZEMzk5MzgifQ",
+        "header": "eyJmaWQiOjk2OTYxNSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDQyZDEwYWE0ODgxZTRiNDUwOTBmMkQ3NjdEOTBhZDc2ODA1ZWFBODQifQ",
         "payload": "eyJkb21haW4iOiJldGhjcC50b3AifQ",
-        "signature": "MHhhOGQ5MDJjMzJkNzEwNDBhODU2MzU2ZWNmNmI1ODEwODZjMmJmNjU2NmI3N2Q3NmJmZjQ2OGU3ODZjMGQzNDZmM2QyMGQxOWE4YjY2MzEzM2Y3NTA2NWViM2MyZTRkYjJmYzIzMDMyOGE0MGY2NzZlMjAzYjc1ODQyODUzNmQyNDFi"
+        "signature": "turWE8rY4Vw4M/hhXxzwOUAozCIl1Gxv7+8wA8qvJ0ZEWlOWDFxlnmNKjKCPEROHnLi647KZ9DWkz0mCx/po/hw="
     },
     "frame": {
+        "name": "ETHCP",
         "version": "1",
-        "name": "ETHCP Mini",
-        "subtitle": "ETHCP Mini",
-        "description": "ETHCP Mini is a simple Farcaster client built with Next.js, designed to provide a minimalistic and efficient user experience.",
         "iconUrl": "https://ethcp.top/favicon.ico",
         "homeUrl": "https://ethcp.top",
-        "imageUrl": "https://ethcp.top/favicon.ico",
+        "imageUrl": "https://ethcp.top/image.png",
         "buttonTitle": "Open ETHCP",
         "splashImageUrl": "https://ethcp.top/splash.png",
-        "splashBackgroundColor": "#eeccff",
-        "primaryCategory": "developer-tools",
+        "splashBackgroundColor": "#CC1111",
+        "webhookUrl": "https://ethcp.top/api/webhook",
+        "primaryCategory": "education",
+        "subtitle": "Ethereum Communist Party",
+        "description": "ETHCP（以太坊共产党）是一个创新的Web3项目，旨在探索区块链技术与共产主义社会理念的结合。我们相信，以太坊作为世界计算机，可以成为构建新型社会生产关系的基础设施，实现资源的公平分配和集体所有制的数字化实践。",
+        "screenshotUrls": [
+            "https://ethcp.top/screenshot.jpg"
+        ],
+        "heroImageUrl": "https://ethcp.top/screenshot.jpg",
         "tags": [
-            "ETHCP",
-            "Communism",
-            "Ethereum"
-        ]
+            "ethereum",
+            "communism",
+            "ethcp"
+        ],
+        "tagline": "共产主义社会中的世界计算机",
+        "ogTitle": "探索新数字世界中的社会生产关系",
+        "ogDescription": "旨在探索区块链技术与共产主义社会理念的结合，以太坊作为世界计算机，可以成为构建新型社会生产关系的基础设施，实现资源的公平分配和集体所有制的数字化实践",
+        "ogImageUrl": "https://ethcp.top/og-image.png"
     }
 }
