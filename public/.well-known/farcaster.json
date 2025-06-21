@@ -7,25 +7,25 @@
     "frame": {
         "name": "ETHCP",
         "version": "1",
-        "iconUrl": "https://ethcp.top/favicon.ico",
+        "iconUrl": "https://ethcp.top/icon.ico",
         "homeUrl": "https://ethcp.top",
-        "imageUrl": "https://ethcp.top/image.png",
+        "imageUrl": "https://ethcp.top/screenshot.jpg",
         "buttonTitle": "Open ETHCP",
         "splashImageUrl": "https://ethcp.top/splash.png",
         "splashBackgroundColor": "#CC1111",
         "webhookUrl": "https://ethcp.top/api/webhook",
-        "primaryCategory": "education",
         "subtitle": "Ethereum Communist Party",
         "description": "ETHCP（以太坊共产党）是一个创新的Web3项目，旨在探索区块链技术与共产主义社会理念的结合。我们相信，以太坊作为世界计算机，可以成为构建新型社会生产关系的基础设施，实现资源的公平分配和集体所有制的数字化实践。",
         "screenshotUrls": [
             "https://ethcp.top/screenshot.jpg"
         ],
-        "heroImageUrl": "https://ethcp.top/screenshot.jpg",
+        "primaryCategory": "education",
         "tags": [
             "ethereum",
             "communism",
             "ethcp"
         ],
+        "heroImageUrl": "https://ethcp.top/screenshot.jpg",
         "tagline": "共产主义社会中的世界计算机",
         "ogTitle": "探索新数字世界中的社会生产关系",
         "ogDescription": "旨在探索区块链技术与共产主义社会理念的结合，以太坊作为世界计算机，可以成为构建新型社会生产关系的基础设施，实现资源的公平分配和集体所有制的数字化实践",

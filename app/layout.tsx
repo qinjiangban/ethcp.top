@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Farcaster from "@/config/farcaster";
-import { Wagmi } from "@/config/wagmi";
+
+
+
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Providers from "@/config/Providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,14 +37,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
 
-        <Wagmi >
-          <Farcaster>
+        <Providers>
 
-            <Header />
-            {children}
-            <Footer />
-          </Farcaster>
-        </Wagmi>
+          <Header />
+          {children}
+          <Footer />
+          
+        </Providers>
 
       </body>
     </html>

@@ -10,10 +10,7 @@ export default function ConnectMenu() {
   if (isConnected) {
     return (
       <>
-        <div>已连接！</div>
-        <div>
-          用户身份: { ensName || address}
-        </div>
+
       </>
     )
   }
