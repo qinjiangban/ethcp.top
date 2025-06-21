@@ -1,0 +1,25 @@
+{
+    "accountAssociation": {
+        "header": "eyJmaWQiOjk2OTYxNSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDFGNjAyRGVhNjUwNzYxMzAzRDIzYTRmMGE4Q2Q0NUE2MkZEMzk5MzgifQ",
+        "payload": "eyJkb21haW4iOiJldGhjcC50b3AifQ",
+        "signature": "MHhhOGQ5MDJjMzJkNzEwNDBhODU2MzU2ZWNmNmI1ODEwODZjMmJmNjU2NmI3N2Q3NmJmZjQ2OGU3ODZjMGQzNDZmM2QyMGQxOWE4YjY2MzEzM2Y3NTA2NWViM2MyZTRkYjJmYzIzMDMyOGE0MGY2NzZlMjAzYjc1ODQyODUzNmQyNDFi"
+    },
+    "frame": {
+        "version": "1",
+        "name": "ETHCP Mini",
+        "subtitle": "ETHCP Mini",
+        "description": "ETHCP Mini is a simple Farcaster client built with Next.js, designed to provide a minimalistic and efficient user experience.",
+        "iconUrl": "https://ethcp.top/favicon.ico",
+        "homeUrl": "https://ethcp.top",
+        "imageUrl": "https://ethcp.top/favicon.ico",
+        "buttonTitle": "Open ETHCP",
+        "splashImageUrl": "https://ethcp.top/splash.png",
+        "splashBackgroundColor": "#eeccff",
+        "primaryCategory": "developer-tools",
+        "tags": [
+            "ETHCP",
+            "Communism",
+            "Ethereum"
+        ]
+    }
+}
