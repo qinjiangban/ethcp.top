@@ -1,4 +1,5 @@
 'use client'
+import { AddressTruncate } from '@/utils/AddressTruncate'
 import { useAccount, useConnect, useEnsName } from 'wagmi'
 
 export default function ConnectMenu() {
@@ -9,9 +10,9 @@ export default function ConnectMenu() {
 
   if (isConnected) {
     return (
-      <>
-
-      </>
+      <div className='btn btn-ghost'>
+        {ensName || AddressTruncate(address as `0x${string}`)}
+      </div>
     )
   }
 
