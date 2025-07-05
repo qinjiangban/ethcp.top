@@ -1,5 +1,8 @@
 'use client'
 
+import Footer from "@/components/footer"
+
+
 export default function page() {
     return (
         <>
@@ -52,7 +55,29 @@ export default function page() {
 
                 </main>
 
+
+
+                <div className="mt-8 flex justify-center">
+                    <button
+                        onClick={async () => {
+                            const { sdk } = await import("@farcaster/miniapp-sdk");
+                            await sdk.actions.viewProfile({ fid: 969615 }); // 请将123456替换为qinjiangban的真实fid
+                        }}
+                        className="btn btn-primary btn-lg"
+                    >
+                        开发者 qinjiangban 
+                    </button>
+                </div>
+
+
             </div>
+
+
+
+
+
+
+            <Footer />
         </>
     )
 }
