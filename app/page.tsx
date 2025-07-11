@@ -1,5 +1,4 @@
 import Footer from "@/components/footer";
-import MintNFT from "@/components/MintNFT";
 
 import Link from "next/link";
 export default function Home() {
