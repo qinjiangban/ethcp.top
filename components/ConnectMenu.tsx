@@ -38,12 +38,12 @@ export default function ConnectMenu() {
                   }
                 }}
               >
-                切换到 {chain.name}
+                {chain.name}
               </button>
             </li>
           ))}
           <li>
-            <a className=' hover:bg-error'>
+            <a className='my-4 hover:bg-error'>
               <button  type="button" onClick={() => disconnect()}>Disconnect</button>
             </a>
           </li>

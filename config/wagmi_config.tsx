@@ -5,12 +5,12 @@ import { farcasterFrame as miniAppConnector } from '@farcaster/frame-wagmi-conne
 import { coinbaseWallet } from 'wagmi/connectors'
 
 export const config = createConfig({
-    chains: [mainnet, base, unichain, optimism,baseSepolia],
+    chains: [/* mainnet, base, unichain, optimism, */baseSepolia],
     transports: {
-        [mainnet.id]: http(),
+/*         [mainnet.id]: http(),
         [base.id]: http(),
         [unichain.id]: http(),
-        [optimism.id]: http(),
+        [optimism.id]: http(), */
         [baseSepolia.id]: http(),
     },
     connectors: [

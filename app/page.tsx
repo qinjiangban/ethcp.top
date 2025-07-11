@@ -14,7 +14,7 @@ export default function Home() {
               Explore the social production relations in the new digital world.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
-              <Link href={`/edu/1`} className="btn btn-error">学习课程</Link>
+              <Link href={`/edu/1`} className="btn btn-error">Learn</Link>
               <Link href={`/about`} className="btn btn-error">About</Link>
             </div>
 
