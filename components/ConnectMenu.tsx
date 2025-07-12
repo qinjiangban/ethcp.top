@@ -13,7 +13,7 @@ export default function ConnectMenu() {
   if (isConnected) {
     return (
       <div className="dropdown dropdown-end">
-        <div tabIndex={0} role="button" className="btn btn-ghost">
+        <div tabIndex={0} role="button" className="btn btn-primary">
           {ensName ? ensName : AddressTruncate(address)}
         </div>
         <ul

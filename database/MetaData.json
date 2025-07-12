@@ -1,0 +1,26 @@
+{
+  "name": "ETHCP #{tokenId}",
+  "description": "Ethereum Communist Party - Join the decentralized revolution! This NFT represents membership in the digital collective working towards a more equitable blockchain future.",
+  "image": "https://gateway.pinata.cloud/ipfs/bafkreierq5aog6ixkkn3ds7rmspx3amsdkxo7kmwjq37erfugehum4bszq",
+  "external_url": "https://ethcp.top",
+  "attributes": [
+    {
+      "trait_type": "Membership Type",
+      "value": "Founding Member"
+    },
+    {
+      "trait_type": "Ideology",
+      "value": "Decentralist"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Token ID",
+      "value": "{tokenId}"
+    }
+  ],
+  "properties": {
+    "category": "Membership",
+    "collection": "Ethereum Communist Party",
+    "website": "https://ethcp.top"
+  }
+}
