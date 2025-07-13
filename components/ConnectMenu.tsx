@@ -3,12 +3,12 @@ import { AddressTruncate } from '@/utils/AddressTruncate'
 import { useAccount, useConnect, useDisconnect, useEnsName, useConfig } from 'wagmi'
 
 export default function ConnectMenu() {
+  const config = useConfig()
+  const chains = config.chains
   const { isConnected, address, chainId } = useAccount()
   const { connect, connectors, } = useConnect()
   const { disconnect } = useDisconnect()
-  const { data: ensName } = useEnsName({ address })
-  const config = useConfig()
-  const chains = config.chains
+  const { data: ensName } = useEnsName({ address, config })
 
   if (isConnected) {
     return (
@@ -44,7 +44,7 @@ export default function ConnectMenu() {
           ))}
           <li>
             <a className='my-4 hover:bg-error'>
-              <button  type="button" onClick={() => disconnect()}>Disconnect</button>
+              <button type="button" onClick={() => disconnect()}>Disconnect</button>
             </a>
           </li>
         </ul>
@@ -55,7 +55,7 @@ export default function ConnectMenu() {
   return (
     <button
       type="button"
-      onClick={() => connect({ connector: connectors[0] })}
+      onClick={() => connect({ connector: connectors[0] || connectors[1], })}
       className='btn btn-primary'
     >
       Connect
